@@ -6,7 +6,7 @@ MONGO_PORT=10002
 MONGO_TEMP=~/Desktop/mongo.tmp
 
 echo "#### downloading mongodb3.2.6 to Desktop ####"
-curl -O https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.2.6.tgz ~/Desktop/
+curl -o ~/Desktop/mongodb-linux-x86_64-3.2.6.tgz https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.2.6.tgz
 
 echo "#### unzip mongodb-linux-x86_64-3.2.6.tgz to mongodb3.2.6 ####"
 mkdir -p ${MONGO_TEMP} # not MONGO_HOME dir
