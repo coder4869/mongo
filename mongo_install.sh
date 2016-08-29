@@ -1,3 +1,4 @@
+#!/bin/bash
 #This file provides mongodb auto-installing and auto-configuring opreations with shell commands
 #const var Definations
 MONGO_HOME=~/Desktop/mongodb3.2
